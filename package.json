@@ -1,10 +1,10 @@
 {
-  "author": "Mohammad Younes",
-  "name": "rtlcss",
-  "version": "2.0.6",
-  "description": "Framework for transforming cascading style sheets (CSS) from left-to-right (LTR) to right-to-left (RTL)",
-  "homepage": "http://rtlcss.com/",
-  "bugs": "https://github.com/MohammadYounes/rtlcss/issues?state=open",
+  "author": "Jun Shen",
+  "name": "rtlcss_sf",
+  "version": "0.0.1",
+  "description": "based on the original rtlcss, add the .rtl rule before the original rule",
+  "homepage": "https://github.com/hatelove85911/rtlcss_sf",
+  "bugs": "https://github.com/hatelove85911/rtlcss_sf?state=open",
   "license": "MIT",
   "keywords": [
     "rtl",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MohammadYounes/rtlcss.git"
+    "url": "https://github.com/hatelove85911/rtlcss_sf"
   },
   "bin": {
     "rtlcss": "./bin/rtlcss.js"

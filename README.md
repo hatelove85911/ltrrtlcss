@@ -1,35 +1,7 @@
-# RTLCSS
+# RTLCSS_SF
 
-<img style="margin:15px" title="RTL CSS" src="https://cloud.githubusercontent.com/assets/4712046/5889219/190f366a-a425-11e4-8ef5-8b5f60a9e903.png" align="right"/>
+RTLCSS Successfactors
 
-[![GitHub version](https://badge.fury.io/gh/MohammadYounes%2Frtlcss.svg)](http://badge.fury.io/gh/MohammadYounes%2Frtlcss)
-[![NPM version](https://badge.fury.io/js/rtlcss.svg)](http://badge.fury.io/js/rtlcss)
-[![Build Status](https://travis-ci.org/MohammadYounes/rtlcss.svg?branch=master)](https://travis-ci.org/MohammadYounes/rtlcss)
-[![DEPENDENCIES](https://david-dm.org/MohammadYounes/rtlcss.svg)](https://david-dm.org/MohammadYounes/rtlcss)
+Based on original [rtlcss](https://github.com/MohammadYounes/rtlcss), with some modification to transform css to rtl format and add the new `.rtl` rule above the orignal one when there're transformation happens:
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-blue.svg)](http://standardjs.com/)
-[![editor](https://img.shields.io/badge/editor-vscode-blue.svg)](https://code.visualstudio.com/)
-[![Twitter](https://img.shields.io/badge/follow-%40rtlcss-blue.svg)](https://twitter.com/rtlcss)
-
-RTLCSS is a framework for converting Left-To-Right (LTR) Cascading Style Sheets(CSS) to Right-To-Left (RTL). 
-
-## Documentation
-
-Visit http://rtlcss.com/learn
-
-## Playground
-
-Visit http://rtlcss.com/playground
-
-## Bugs and Issues
-
-Have a bug or a feature request? please feel free to [open a new issue](https://github.com/MohammadYounes/rtlcss/issues/new) .
-
-## Release Notes
-
-To view changes in recent versions, see the [CHANGELOG](CHANGELOG.md).
-
-## Support RTLCSS Development
-
-Submit a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YC28CZLKL4LMC) :)
-
+![](https://cloud.githubusercontent.com/assets/2359121/18118277/5f1be5a8-6f86-11e6-9a03-41a980c00cc8.png)

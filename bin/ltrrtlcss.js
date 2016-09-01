@@ -47,7 +47,7 @@ function printHelp () {
     console.log(options[x++], '\t', options[x])
   }
   console.log('')
-  console.log('*If no destination is specified, output will be written to the same input folder as {source}.rtl.{ext}')
+  console.log('*If no destination is specified, output will be written to the same input folder as {source}.ltrrtl.{ext}')
   console.log('')
   printInfo('RTLCSS version: ' + require('../package.json').version)
   printInfo('Report issues to: https://github.com/MohammadYounes/rtlcss/issues')
@@ -131,7 +131,7 @@ if (!shouldBreak) {
 if (!shouldBreak) {
   if (!output && input !== '-') {
     if (directory !== true) {
-      output = path.extname(input) ? input.replace(/\.[^.]*$/, function (ext) { return '.rtl' + ext }) : input + '.rtl'
+      output = path.extname(input) ? input.replace(/\.[^.]*$/, function (ext) { return '.ltrrtl' + ext }) : input + '.ltrrtl'
     } else {
       output = input
     }
@@ -202,7 +202,7 @@ if (!shouldBreak) {
               // compute output directory
               var relativePath = path.relative(input, file).split(path.sep)
               relativePath.pop()
-              relativePath.push(path.basename(file).replace('.css', ext || '.rtl.css'))
+              relativePath.push(path.basename(file).replace('.css', ext || '.ltrrtl.css'))
 
               // set rtl file name
               var rtlFile = path.join(output, relativePath.join(path.sep))

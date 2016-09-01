@@ -1,10 +1,10 @@
 {
   "author": "Jun Shen",
-  "name": "rtlcss_sf",
+  "name": "ltrrtlcss",
   "version": "0.0.1",
   "description": "based on the original rtlcss, add the .rtl rule before the original rule",
-  "homepage": "https://github.com/hatelove85911/rtlcss_sf",
-  "bugs": "https://github.com/hatelove85911/rtlcss_sf?state=open",
+  "homepage": "https://github.com/hatelove85911/ltrrtlcss",
+  "bugs": "https://github.com/hatelove85911/ltrrtlcss?state=open",
   "license": "MIT",
   "keywords": [
     "rtl",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hatelove85911/rtlcss_sf"
+    "url": "https://github.com/hatelove85911/ltrrtlcss"
   },
   "bin": {
-    "rtlcss": "./bin/rtlcss.js"
+    "ltrrtlcss": "./bin/ltrrtlcss.js"
   },
   "dependencies": {
     "postcss": "^5.0.0",

@@ -1,7 +1,13 @@
-# RTLCSS_SF
+# LTRRTLCSS
 
-RTLCSS Successfactors
+Left to right and right to left CSS
 
-Based on original [rtlcss](https://github.com/MohammadYounes/rtlcss), with some modification to transform css to rtl format and add the new `.rtl` rule above the orignal one when there're transformation happens:
+Based on original [rtlcss](https://github.com/MohammadYounes/rtlcss).  
+The tool will extract the part which is concerned with left to right or right to left, and create two new css rule prefixed with .ltr and .rtl. The parts which has nothing to do with ltr, rtl remain unchanged in the original rule.
 
-![](https://cloud.githubusercontent.com/assets/2359121/18118277/5f1be5a8-6f86-11e6-9a03-41a980c00cc8.png)
+See an example here:
+# Original Css
+![image](https://cloud.githubusercontent.com/assets/2359121/18154508/ddd03fc8-7037-11e6-885c-b8dcf99fc898.png)
+
+# Transformed Css
+![image](https://cloud.githubusercontent.com/assets/2359121/18154479/9b128d12-7037-11e6-91c5-d68995779fc6.png)
